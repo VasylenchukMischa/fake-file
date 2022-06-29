@@ -8,17 +8,13 @@ Gem::Specification.new do |spec|
   spec.authors = ["VasylenchukMischa"]
   spec.email = ["mischa.blaster@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "a ruby library to create fake files"
+  spec.description = "gem used different libraries to create fake file as fast as these libraries work"
+  spec.homepage = "https://github.com/VasylenchukMischa/fake-file"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
-
-  spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["homepage_uri"] = 'https://github.com/VasylenchukMischa/fake-file'
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

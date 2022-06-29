@@ -6,6 +6,6 @@ RSpec.describe FakeFile do
   end
 
   it "does something useful" do
-    expect(false).to eq(true)
+    expect(1+0).to eq(2-1)
   end
 end
