@@ -5,7 +5,7 @@ RSpec.describe FakeFile do
     expect(FakeFile::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(1+0).to eq(2-1)
+  it "returns docx file" do
+    expect(FakeFile::Document.generate.class).to eq(Tempfile)
   end
 end
