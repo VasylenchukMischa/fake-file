@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "lib/fake/file/version"
+require_relative "lib/fake-file/version"
 
 Gem::Specification.new do |spec|
   spec.name = "fake-file"
@@ -30,6 +30,8 @@ Gem::Specification.new do |spec|
   # Uncomment to register a new dependency of your gem
   spec.add_dependency "prawn-html"
 
+  spec.add_development_dependency "pry"
+  spec.add_development_dependency "marcel"
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
 end

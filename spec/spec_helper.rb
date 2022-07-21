@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-require "fake/file"
+require "fake-file"
+require "marcel"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
