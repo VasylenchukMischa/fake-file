@@ -29,6 +29,7 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   spec.add_dependency "prawn-html"
+  spec.add_dependency "htmltoword"
 
   spec.add_development_dependency "pry"
   spec.add_development_dependency "marcel"
