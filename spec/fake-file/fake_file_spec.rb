@@ -10,6 +10,10 @@ RSpec.describe FakeFile do
   end
 
   it "returns docx file" do
-    expect(Marcel::MimeType.for(FakeFile::Document.doc)).to eq("application/x-tika-ooxml")
+    expect(Marcel::MimeType.for(FakeFile::Document.docx)).to eq("application/x-tika-ooxml")
+  end
+
+  it "returns docx file" do
+    expect(Marcel::MimeType.for(FakeFile::Document.xlsx)).to eq("application/octet-stream")
   end
 end
