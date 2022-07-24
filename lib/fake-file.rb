@@ -17,7 +17,7 @@ module FakeFile
       generate_tempfile(pdf.render, '.pdf')
     end
 
-    def self.doc
+    def self.docx
       my_html = '<html><head></head><body><p>Hello</p></body></html>'
       document = Htmltoword::Document.create(my_html)
       generate_tempfile(document, '.docx')
